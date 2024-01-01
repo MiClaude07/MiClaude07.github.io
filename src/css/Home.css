@@ -1,0 +1,51 @@
+.home-page {
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.email-disclaimer {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.email-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.email {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(44, 121, 128);
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: color 0.15s;
+}
+
+.email-container .tooltip {
+    position: absolute;
+    background-color: rgb(55, 55, 55);
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 3px 3px;
+    pointer-events: none;
+    bottom: -25px;
+    opacity: 0;
+    transition: 0.15s;
+    color:whitesmoke
+}
+
+.email-container:hover .tooltip{
+    opacity: 0.67;
+}
+
+.email-container:active .email {
+    color: rgb(73, 195, 206);
+}
