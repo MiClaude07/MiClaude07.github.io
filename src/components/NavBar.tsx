@@ -13,6 +13,7 @@ const NavBar = () => {
         GitHub
       </a>
       <a>Projects</a>
+      <a>Academics</a>
       <a>About Me</a>
     </nav>
   );

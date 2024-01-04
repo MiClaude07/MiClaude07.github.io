@@ -23,7 +23,7 @@ h1 {
 .email {
     cursor: pointer;
     text-decoration: underline;
-    color: rgb(44, 121, 128);
+    color: rgb(65, 178, 188);
     margin-left: 5px;
     margin-right: 5px;
     transition: color 0.15s;

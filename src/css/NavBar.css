@@ -17,8 +17,13 @@
     margin-left: 15px;
     font-family: Arial;
     cursor: pointer;
+    transition: opacity 0.15s;
 }
 
 .nav-bar a:hover {
     text-decoration: underline;
+}
+
+.nav-bar a:active {
+    opacity: 0.5;
 }
