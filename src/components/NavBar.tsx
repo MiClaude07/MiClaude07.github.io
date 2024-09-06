@@ -12,9 +12,9 @@ const NavBar = () => {
       <a href="https://github.com/MiClaude07" target="_blank">
         GitHub
       </a>
-      <a>Projects</a>
-      <a>Academics</a>
-      <a>About Me</a>
+      <a href="#tech_skills">Technical Skills</a>
+      {/* <a>Academics</a>
+      <a>About Me</a> */}
     </nav>
   );
 };

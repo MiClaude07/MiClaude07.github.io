@@ -32,7 +32,9 @@ export const info_card: info = {
       "Python was the first language I learned and was used during my Intro to Computing course. My Tutoring Assistant bot as well as my 2023 AWS internship project both mainly used Python. This is my most used language",
     projects: `\u2022 Intro to Computing Projects
     \u2022 Tutoring Assistant Bot 
-    \u2022 2023 AWS Internship Project`,
+    \u2022 2023 AWS Internship Project
+    \u2022 2024 AWS Internship Project
+    `,
     img: pythonLogo,
   },
   Java: {

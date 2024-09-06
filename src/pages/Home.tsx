@@ -18,7 +18,9 @@ const Home = () => {
           </div>
         </p>
         <BioCard />
-        <TechSkills />
+        <div id="tech_skills">
+          <TechSkills />
+        </div>
       </div>
     </>
   );
